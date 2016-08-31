@@ -1,5 +1,5 @@
 {
-    "name": "flarum/flarum-ext-vietnam",
+    "name": "devdanang/flarum-ext-vietnam",
     "type": "flarum-extension",
     "description": "Vietnam language pack.",
     "keywords": ["locale"],
