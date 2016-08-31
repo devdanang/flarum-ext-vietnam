@@ -9,13 +9,13 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "Reply to #{number}"
+      reply_to_post_text: "Phản hồi tới #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} replied to your post"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} mentioned you"
+      post_mentioned_text: "{username} phản hồi bài viết của bạn"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} nhắc tới bạn"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -27,9 +27,5 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Someone replies to one of my posts
-      notify_user_mentioned_label: Someone mentions me in a post
-
-    # These translations are used in the user profile page and profile popup.
-    user:
-      mentions_link: Mentions
+      notify_post_mentioned_label: Bài viết của bạn có phản hồi mới
+      notify_user_mentioned_label: Bạn được nhắc tới trong bài viết
