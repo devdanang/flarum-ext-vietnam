@@ -14,7 +14,7 @@
     },
     "extra": {
         "branch-alias": {
-            "master": "0.1.x"
+            "master": "0.1.x-dev"
         },
         "flarum-extension": {
             "title": "Vietnam",
