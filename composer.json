@@ -1,0 +1,28 @@
+{
+    "name": "flarum/flarum-ext-vietnam",
+    "type": "flarum-extension",
+    "description": "Vietnam language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Vietnam",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Vietnam"
+        }
+    }
+}
